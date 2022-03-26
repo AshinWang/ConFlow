@@ -21,7 +21,7 @@ Paper: [ConFlow: Contrast Network Flow Improving Class-Imbalanced Learning in Ne
 (1) **Download Datasets**
 
 ```
-python data_convert/
+python data_convert/download.py             # Download datasets  
 ```
 
 > **ICXS-IDS2012** https://www.unb.ca/cic/datasets/ids.html
@@ -44,16 +44,16 @@ python data_convert/
 
 ```
 data_convert
-├── download.py             # Download datasets  
+├── download.py              # Download datasets  
 ├── ids12
-│   ├── 0_pcap_split.py     # Slice pcap
-│   ├── 1_label_xml2csv.py  # Convert XML labels to CSV
-│   └── 2_pcap2csv.py		# Convert PCAP to CSV by NFStream
+│   ├── 0_pcap_split.py      # Slice pcap
+│   ├── 1_label_xml2csv.py   # Convert XML labels to CSV
+│   └── 2_pcap2csv.py		 # Convert PCAP to CSV by NFStream
 ├── ids17
-│   └── pcap2csv.py         # Convert PCAP to CSV by NFStream
+│   └── pcap2csv.py          # Convert PCAP to CSV by NFStream
 └── unb15
-    ├── label_sort.py       # Sort out ground truth
-    └── pcap2csv.py         # Convert PCAP to CSV by NFStream
+    ├── label_sort.py        # Sort out ground truth
+    └── pcap2csv.py          # Convert PCAP to CSV by NFStream
 ```
 
 
