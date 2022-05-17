@@ -1,6 +1,6 @@
 # ConFlow
 
-Paper: [ConFlow: Contrast Network Flow Improving Class-Imbalanced Learning in Network Intrusion Detection]()
+Paper: [ConFlow: Contrast Network Flow Improving Class-Imbalanced Learning in Network Intrusion Detection](https://doi.org/10.21203/rs.3.rs-1572776/v1)
 
 > To improve class-imbalanced learning in network intrusion detection, it is necessary to capture the similarities between samples in different classes and compare them with samples in other classes. We propose ConFlow, a contrastive learning method for network intrusion detection, and design a deep learning model of the extracted network flow, combining supervised contrastive loss and cross-entropy loss for training. ConFlow can improve class-imbalanced  learning  and further mine malicious attacks hidden under benign traffic. 
 
